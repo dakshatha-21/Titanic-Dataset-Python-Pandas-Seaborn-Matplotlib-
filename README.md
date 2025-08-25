@@ -1,4 +1,4 @@
-# Titanic-Dataset-Python-Pandas-Seaborn-Matplotlib
+# Titanic-Dataset-Python-Pandas-Seaborn-Matplotlib-Machine learning
 
 Titanic Dataset Analysis
 
