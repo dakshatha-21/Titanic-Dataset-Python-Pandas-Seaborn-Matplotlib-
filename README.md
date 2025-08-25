@@ -1,4 +1,4 @@
-# Titanic-Dataset-Python-Pandas-Seaborn-Matplotlib-Machine Learning
+# Titanic-Dataset-Python-Pandas-Seaborn-Matplotlib
 
 Titanic Dataset Analysis
 
@@ -109,3 +109,81 @@ Ensure required libraries are installed (e.g., pip install pandas seaborn matplo
 Run the Jupyter notebook or Python scripts for EDA
 
 Review visual outputs and summary statistics
+
+
+
+
+# Titanic Survival Prediction (EDA & Machine Learning)
+# 📌 Project Overview
+
+This project explores the Titanic dataset using exploratory data analysis (EDA) and machine learning models to predict passenger survival. The goal was to uncover survival patterns and build a reliable predictive model.
+
+📂 Dataset
+
+Train dataset: Passenger details + survival labels (891 rows)
+
+Test dataset: Passenger details without survival labels (418 rows)
+
+Features include: Pclass, Sex, Age, SibSp, Parch, Fare, Cabin, Embarked
+
+# ⚙️ Methodology
+
+Data Cleaning & Preprocessing
+
+Handled missing values (Age, Embarked, Cabin)
+
+Encoded categorical features (Sex, Embarked)
+
+Dropped irrelevant columns (PassengerId, Name, Ticket, HasCabin)
+
+# Exploratory Data Analysis (EDA)
+
+Countplots: Survival by gender, class, embarkation point
+
+Histograms & boxplots: Age and fare distribution
+
+Correlation heatmap: Relationships between numerical features
+
+Pairplots: Bivariate relationships by survival
+
+
+# Modeling
+
+Split dataset into training (80%) and validation (20%)
+
+Trained Logistic Regression, Decision Tree, and Random Forest models
+
+Best performance achieved with Random Forest Classifier
+
+Results
+
+Random Forest Validation Accuracy: 84.36%
+
+Predictions generated for the test dataset and saved as submission.csv
+
+# 🔑 Key Insights
+
+Females and 1st-class passengers had significantly higher survival rates
+
+Children had better chances than adults
+
+Higher fares were positively correlated with survival
+
+# 🛠️ Tech Stack
+
+Python
+
+Pandas, NumPy
+
+Matplotlib, Seaborn
+
+Scikit-learn
+
+Jupyter Notebook
+
+# ▶️ How to Run
+pip install pandas numpy matplotlib seaborn scikit-learn
+jupyter notebook Titanic.ipynb
+
+
+
